@@ -1,0 +1,24 @@
+{
+  "name": "startbootstrap-sb-admin-2",
+  "version": "1.0.0",
+  "description": "loicao first app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:loisoft/startbootstrap-sb-admin-2.git"
+  },
+  "keywords": [
+    "loicao",
+    "first",
+    "app"
+  ],
+  "author": "loicao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loisoft/startbootstrap-sb-admin-2/issues"
+  },
+  "homepage": "https://github.com/loisoft/startbootstrap-sb-admin-2"
+}
