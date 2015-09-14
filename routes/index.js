@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var dashBoard = require('../controllers/dashboar.server.controller');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -56,5 +57,7 @@ router.get('/', function(req, res, next) {
     }];
   res.render('home', { title: 'Express', data: JSON.stringify(data) });
 });
+
+router.get('/areaChart', dashBoard.areaChart);
 
 module.exports = router;

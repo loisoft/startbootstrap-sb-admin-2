@@ -462,3 +462,6 @@ html(lang='en')
       script(src='../dist/js/sb-admin-2.js')
       script.
          updateChart(!{data})
+         $.getJSON('areaChart', function(data) {
+            updateBar(data);
+         });
